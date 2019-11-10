@@ -1,15 +1,15 @@
 # Code style recommendations
 The best practices to avoid spaghetti code.
 
-> Writing clean code is a chore,  
-> reading clean code is a priveledge  
+> Writing clean code is a chore,
+> reading clean code is a priveledge
 > — Otto von Bismarck
 
 ## Table of contents
 
 - [Javascript](/javascript)
   - [ReactJS](/javascript/reactjs)
-    - [components](/javascript/reactjs/components)
+    - [components](/javascript/reactjs/components.md)
   - [NodeJS](/javascript/nodejs)
 
 ## Motivation and usage
