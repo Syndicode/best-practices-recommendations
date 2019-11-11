@@ -36,7 +36,7 @@ List/ - component's own folder
 | - List.js - component's own file
 | - List.module.scss
 | - List.test.js
-| - List.md - documentation file example
+| - List.md - react-styleguidist's component doc
 
 | - ListItem.js
 | - ListItem.module.scss
@@ -47,6 +47,7 @@ List/ - component's own folder
 | - ListHeader.test.js
 
 | - context.js - shared among module's components
+| - README.md - module doc
 | - index.js
 ```
 
