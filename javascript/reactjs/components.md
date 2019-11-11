@@ -54,7 +54,7 @@ List/ - component's own folder
 
 The file that contains all exports of the List component folder
 
-```es6
+```jsx
 // index.js
 
 export { List as default } from "./List";
@@ -66,7 +66,7 @@ export { ListItem } from "./ListItem";
 
 Example of creating context to easily re-use values among child components avoiding props drilling anti-pattern:
 
-```es6
+```jsx
 // context.js
 import { createContext } from "react";
 
@@ -75,7 +75,7 @@ export const { Provider, Consumer } = createContext({});
 
 Add **Provider** to the Parent Component:
 
-```es6
+```jsx
 // List.js
 import React, { Component } from 'react';
 import { Provider } from './context';
@@ -91,7 +91,7 @@ const List = () => {
 
 And then use the `context` via **Consumer** in the Child component:
 
-```es6
+```jsx
 // ListItem.js
 import React, { Component } from "react";
 import { Consumer } from "./context";
@@ -103,7 +103,7 @@ const ListItem = () => {
 
 #### Component usage
 
-```es6
+```jsx
 // MyComponent.js
 import React from "react";
 import List, { ListHeader, ListItem } from "components/List";
