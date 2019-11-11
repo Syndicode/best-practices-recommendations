@@ -51,7 +51,7 @@ List/ - component's own folder
 | - index.js
 ```
 
-#### index.js
+### Example of index.js
 
 The file that contains all exports of the List component folder
 
@@ -63,7 +63,7 @@ export { ListHeader } from "./ListHeader";
 export { ListItem } from "./ListItem";
 ```
 
-#### Context file
+### Example of context file usage
 
 Example of creating context to easily re-use values among child components avoiding props drilling anti-pattern:
 
@@ -102,7 +102,7 @@ const ListItem = () => {
 };
 ```
 
-#### Component usage
+### Example of List component usage
 
 ```jsx
 // MyComponent.js
