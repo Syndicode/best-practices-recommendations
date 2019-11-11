@@ -27,7 +27,7 @@ Developers are encouraged to suggest it during PR reviews. All pain points and c
   - it _may_ have its folder but not required
   - it _may_ have named export in `index.js` but not required
   - it _should_ have its own styles file
-  - it _should_ avoid having Child components of its own
+  - its _prefferably_ to avoid having Child components of its own
 
 ### Example of file structure and naming:
 
